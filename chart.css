@@ -116,3 +116,10 @@ button[type="submit"] {
     padding:15px 88px 0 0;
 }
 
+.complete , .check{
+    display:block;
+}
+
+.complete , .text{
+    text-decoration:line-through;
+}

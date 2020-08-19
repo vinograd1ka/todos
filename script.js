@@ -11,19 +11,19 @@
             var check = div.getElementsByClassName('check')[0]
             var line = div.getElementsByClassName("text")[0]
 
-            if (check.style.display !== 'none') {
+            /*if (check.style.display !== 'none') {
                 check.style.display = 'none';
                 line.style.textDecoration = 'none';
             }
             else {
                 check.style.display = 'block';
                 line.style.textDecoration = 'line-through';
-            }
+            }*/
         };
 
         div.className = "search-container"
         div.innerHTML =
-            '<div class="search-header text">'+nameInput.value+'<i class="fas fa-check icon-search check"></i></div>' +
+            '<div class="search-header complete">'+nameInput.value+'<i class="fas fa-check icon-search check"></i></div>' +
             '<div class="line"></div>'
         list.appendChild(div);
     });
@@ -31,10 +31,5 @@
     document.getElementById("add-button").onclick = function(e) {
         document.getElementById("name-input").value = "";
     }
-
-
-
-
-
 })();
 
