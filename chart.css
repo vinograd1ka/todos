@@ -28,6 +28,7 @@ form{
     vertical-align: top;
     position: relative;
 }
+
 input[type="search"]{
     outline: none;
     border: 2px solid #bdc3c7;
@@ -38,6 +39,7 @@ input[type="search"]{
     background: #fff;
     border-radius: 7px;
 }
+
 button[type="submit"] {
     position: absolute;
     top: -5px;
@@ -92,8 +94,6 @@ button[type="submit"] {
 .search-container{
     color:black;
     font-size:35px;
-    left: 65px;
-    bottom: 155px;
     padding:0 0 40px 80px;
 }
 
@@ -109,15 +109,14 @@ button[type="submit"] {
     overflow: auto;
 }
 
-.icon-search{
+
+.complete .check{
     color:#2ecc71;
     font-size:25px;
     float:right;
     padding:15px 88px 0 0;
-}
+    display:none;
 
-.complete , .check{
-    display:block;
 }
 
 .complete , .text{
