@@ -109,16 +109,35 @@ button[type="submit"] {
     overflow: auto;
 }
 
+.check{
+    visibility: hidden;
+}
 
 .complete .check{
     color:#2ecc71;
     font-size:25px;
     float:right;
     padding:15px 88px 0 0;
-    display:none;
-
+    display:block;
+    visibility: visible;
 }
 
 .complete , .text{
     text-decoration:line-through;
+}
+
+.counting-header{
+    font-size:20px;
+    font-weight:800;
+    padding-left:70px;
+}
+
+.button{
+    height:30px;
+    width:70px;
+    margin-left:50px;
+}
+
+.flex{
+    display:flex;
 }
